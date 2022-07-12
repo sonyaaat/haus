@@ -1,0 +1,31 @@
+.brands__container{
+    padding-top: 55px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(183, 178, 178);
+
+}
+.brands__list{
+    display: flex;
+
+}
+.brands__item{
+    width: 330px;
+    &:not(:last-child){
+        margin-right: 165px;
+    }
+
+}
+.brands__text{
+    margin-bottom: 36px;
+
+    font-size: 18px;
+line-height: 1.78;
+text-align: center;
+color: #000000;
+
+}
+.brands__img{
+    
+    
+
+}

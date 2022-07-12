@@ -1,0 +1,35 @@
+.intro__container{
+    padding-top: 60px;
+    padding-bottom: 95px;
+    border-bottom: 1px solid grey;
+
+}
+.intro__img{
+    width: 1320px;
+    height: 560px;
+    margin-bottom: 55px;
+
+}
+.intro__content{
+    display: flex;
+
+}
+.intro__title{
+    font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 53px;
+line-height: 1.51;
+color: #000000;
+
+
+}
+.intro__text{
+    width: 548px;
+    margin-left: auto;
+    font-size: 18px;
+line-height: 1.7;
+
+color: #000000;
+
+}

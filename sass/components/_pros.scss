@@ -1,0 +1,50 @@
+.pros__container{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    display: flex;
+
+}
+.pros__content{
+    margin-top: 53px;
+}
+.pros__list{
+
+}
+.pros__item{
+
+}
+.pros__header{
+    width: 358px;
+    margin-bottom: 19px;
+
+    font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 1.47;
+color: #000000;
+
+}
+.pros__header--big{
+    font-size: 36px;
+    line-height: 1.22;
+
+}
+.pros__text{
+    width: 385px;
+
+    font-size: 18px;
+line-height: 1.78;
+color: #000000;
+    
+
+}
+.pros__item{
+    &:not(:last-child){
+        margin-bottom: 25px;
+    }
+
+}
+.pros__img{
+    margin-left: 55px;
+}

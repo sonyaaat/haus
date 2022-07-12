@@ -1,0 +1,43 @@
+.hero__container{
+    display: flex;
+  
+}
+.hero__img{
+
+}
+.hero__right{
+    background: #996B60;
+    padding-top: 312px;
+    padding-left: 60px;
+    padding-right: 88px;
+
+}
+.hero__header{
+    width: 457px;
+   
+    font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 73px;
+line-height: 1.32;
+color: #FFFFFF;
+margin-bottom: 34px;
+
+}
+.hero__text{
+    font-weight: 400;
+font-size: 18px;
+line-height: 1.78;
+color: #FFFFFF;
+margin-bottom: 46px;
+
+}
+.hero__button{
+    color: #000000;
+    border: 1px solid #FFFFFF;
+    &:hover,&:focus{
+        background-color: #FFFFFF;
+        
+    }
+
+}

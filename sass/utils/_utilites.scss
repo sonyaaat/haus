@@ -1,0 +1,48 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+.container{
+    width: 1380px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid red;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.button{
+  width: 180px;
+  height: 52px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 12px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+
+
+}

@@ -1,0 +1,40 @@
+.header{
+    
+    position: absolute;
+    left: 15px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+.header__list{
+    display: flex;
+  
+}
+.header__item{
+    &:not(:last-child){
+        margin-right: 60px;
+    }
+}
+.header__link{
+    font-size: 12px;
+line-height: 1.2;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+padding-top: 15px;
+padding-bottom: 15px;
+&:hover,&:focus{
+    color: #000000;
+   
+}
+}
+.header__logo{
+    margin-right: auto;
+    margin-left: auto;
+}
