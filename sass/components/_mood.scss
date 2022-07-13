@@ -1,0 +1,98 @@
+.mood{
+    background-image: url(../../img/mood.jpg);
+    height: 568px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    
+    
+}
+.mood__container{
+    
+}
+.mood__top{
+    width: 550px;
+    height: 303px;
+    background-color: black;
+    padding-top: 40px;
+    padding-left: 69px;
+    padding-right: 69px;
+    margin-bottom: 22px;
+
+}
+.mood__title{
+    margin-bottom: 9px;
+
+    font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 1.45;
+text-align: center;
+color: #FFFFFF;
+
+}
+.mood__text{
+    font-size: 16px;
+line-height: 1.75;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 26px;
+
+}
+.mood__button{
+    font-size: 12px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #000000;
+background-color: #FFFFFF;
+margin: 0 auto;
+width: 180px;
+height: 52px;
+&:hover,&:focus{
+    color: red;
+    font-size: 14px;
+}
+}
+.mood__bottom{
+    width: 550px;
+    height: 125px;
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 32px;
+    padding-left: 134px;
+    padding-right: 134px;
+
+}
+.mood__follow{
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+
+}
+.mood__list{
+    display: flex;
+
+}
+.mood__item{
+    &:not(:last-child){
+        margin-right: 21px;
+    }
+
+}
+.mood__link{
+    font-size: 12px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #FFFFFF;
+&:hover,&:focus{
+    color: red;
+}
+
+}

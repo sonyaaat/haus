@@ -18,12 +18,15 @@ a{
 img {
   display: block;
 }
+*{
+  box-sizing: border-box;
+}
 .container{
     width: 1380px;
     margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
-    border: 1px solid red;
+    
 }
 body{
     font-family: 'Roboto', sans-serif;

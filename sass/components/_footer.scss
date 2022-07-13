@@ -1,0 +1,32 @@
+.footer{
+    background-color: black;
+}
+.footer__container{
+padding-top: 55px;
+padding-bottom: 55px;
+
+}
+.footer__list{
+    display: flex;
+
+}
+.footer__item{
+    &:not(:last-child){
+        margin-right: 60px;
+    }
+
+}
+.footer__link{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: rgba(255, 255, 255, 0.6);
+&:hover,&:focus{
+    color: red;
+}
+
+}
+.footer__link--accent{
+    color: #FFFFFF;
+
+}
